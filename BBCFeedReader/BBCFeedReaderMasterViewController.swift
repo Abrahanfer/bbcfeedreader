@@ -113,7 +113,6 @@ class BBCFeedReaderMasterViewController: UITableViewController {
             let index = self.tableView.indexPath(for: cell)
             let newsItem = news[(index?.row)!]
             if let detailVC = segue.destination as? BBCFeedReaderDetailViewController {
-                print("Entra aqui")
                detailVC.newsItem = newsItem
             }
         }
@@ -125,15 +124,10 @@ extension BBCFeedReaderMasterViewController: UISplitViewControllerDelegate {
     func splitViewController(_ splitViewController: UISplitViewController,
                              collapseSecondary secondaryViewController: UIViewController,
                              onto primaryViewController: UIViewController) -> Bool {
-        /*guard let secondaryAsNavController = secondaryViewController as? UINavigationController else { return false }
-        guard let topAsDetailController = secondaryAsNavController.topViewController as? BBCFeedReaderDetailViewController else { return false }
-        if topAsDetailController.newsItem == nil {
-            // Return true to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
-            return true
-        }
-        return false*/
         
         return true
     }
+    
+    
 }
 

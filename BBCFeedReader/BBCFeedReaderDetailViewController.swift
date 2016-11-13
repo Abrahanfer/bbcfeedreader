@@ -16,11 +16,11 @@ class BBCFeedReaderDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem
-        self.navigationItem.leftItemsSupplementBackButton = true
         
         if let newsItemUnwrapped = newsItem {
             webView.loadRequest(URLRequest(url: URL(string: newsItemUnwrapped.sourceURL)!))
+        } else {
+            webView.loadRequest(URLRequest(url: URL(string: "http://www.bbc.com/news")!))
         }
     }
 }
