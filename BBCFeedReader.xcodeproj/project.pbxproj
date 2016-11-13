@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59B284991DD7456600E3BD99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B284981DD7456600E3BD99 /* AppDelegate.swift */; };
+		59B2849B1DD7456600E3BD99 /* BBCFeedReaderMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B2849A1DD7456600E3BD99 /* BBCFeedReaderMasterViewController.swift */; };
+		59B2849E1DD7456600E3BD99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B2849C1DD7456600E3BD99 /* Main.storyboard */; };
+		59B284A01DD7456600E3BD99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B2849F1DD7456600E3BD99 /* Assets.xcassets */; };
+		59B284A31DD7456600E3BD99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B284A11DD7456600E3BD99 /* LaunchScreen.storyboard */; };
+		59B284AE1DD7456600E3BD99 /* BBCFeedReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B284AD1DD7456600E3BD99 /* BBCFeedReaderTests.swift */; };
+		59B284B91DD7456600E3BD99 /* BBCFeedReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B284B81DD7456600E3BD99 /* BBCFeedReaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59B284AA1DD7456600E3BD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59B2848D1DD7456600E3BD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59B284941DD7456600E3BD99;
+			remoteInfo = BBCFeedReader;
+		};
+		59B284B51DD7456600E3BD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59B2848D1DD7456600E3BD99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59B284941DD7456600E3BD99;
+			remoteInfo = BBCFeedReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59B284951DD7456600E3BD99 /* BBCFeedReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBCFeedReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B284981DD7456600E3BD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59B2849A1DD7456600E3BD99 /* BBCFeedReaderMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCFeedReaderMasterViewController.swift; sourceTree = "<group>"; };
+		59B2849D1DD7456600E3BD99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59B2849F1DD7456600E3BD99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59B284A21DD7456600E3BD99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59B284A41DD7456600E3BD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59B284A91DD7456600E3BD99 /* BBCFeedReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBCFeedReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B284AD1DD7456600E3BD99 /* BBCFeedReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCFeedReaderTests.swift; sourceTree = "<group>"; };
+		59B284AF1DD7456600E3BD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59B284B41DD7456600E3BD99 /* BBCFeedReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBCFeedReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B284B81DD7456600E3BD99 /* BBCFeedReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCFeedReaderUITests.swift; sourceTree = "<group>"; };
+		59B284BA1DD7456600E3BD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59B284921DD7456600E3BD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B284A61DD7456600E3BD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B284B11DD7456600E3BD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59B2848C1DD7456600E3BD99 = {
+			isa = PBXGroup;
+			children = (
+				59B284971DD7456600E3BD99 /* BBCFeedReader */,
+				59B284AC1DD7456600E3BD99 /* BBCFeedReaderTests */,
+				59B284B71DD7456600E3BD99 /* BBCFeedReaderUITests */,
+				59B284961DD7456600E3BD99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59B284961DD7456600E3BD99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59B284951DD7456600E3BD99 /* BBCFeedReader.app */,
+				59B284A91DD7456600E3BD99 /* BBCFeedReaderTests.xctest */,
+				59B284B41DD7456600E3BD99 /* BBCFeedReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59B284971DD7456600E3BD99 /* BBCFeedReader */ = {
+			isa = PBXGroup;
+			children = (
+				59B284981DD7456600E3BD99 /* AppDelegate.swift */,
+				59B2849A1DD7456600E3BD99 /* BBCFeedReaderMasterViewController.swift */,
+				59B2849C1DD7456600E3BD99 /* Main.storyboard */,
+				59B2849F1DD7456600E3BD99 /* Assets.xcassets */,
+				59B284A11DD7456600E3BD99 /* LaunchScreen.storyboard */,
+				59B284A41DD7456600E3BD99 /* Info.plist */,
+			);
+			path = BBCFeedReader;
+			sourceTree = "<group>";
+		};
+		59B284AC1DD7456600E3BD99 /* BBCFeedReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				59B284AD1DD7456600E3BD99 /* BBCFeedReaderTests.swift */,
+				59B284AF1DD7456600E3BD99 /* Info.plist */,
+			);
+			path = BBCFeedReaderTests;
+			sourceTree = "<group>";
+		};
+		59B284B71DD7456600E3BD99 /* BBCFeedReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59B284B81DD7456600E3BD99 /* BBCFeedReaderUITests.swift */,
+				59B284BA1DD7456600E3BD99 /* Info.plist */,
+			);
+			path = BBCFeedReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59B284941DD7456600E3BD99 /* BBCFeedReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59B284BD1DD7456600E3BD99 /* Build configuration list for PBXNativeTarget "BBCFeedReader" */;
+			buildPhases = (
+				59B284911DD7456600E3BD99 /* Sources */,
+				59B284921DD7456600E3BD99 /* Frameworks */,
+				59B284931DD7456600E3BD99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBCFeedReader;
+			productName = BBCFeedReader;
+			productReference = 59B284951DD7456600E3BD99 /* BBCFeedReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59B284A81DD7456600E3BD99 /* BBCFeedReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59B284C01DD7456600E3BD99 /* Build configuration list for PBXNativeTarget "BBCFeedReaderTests" */;
+			buildPhases = (
+				59B284A51DD7456600E3BD99 /* Sources */,
+				59B284A61DD7456600E3BD99 /* Frameworks */,
+				59B284A71DD7456600E3BD99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59B284AB1DD7456600E3BD99 /* PBXTargetDependency */,
+			);
+			name = BBCFeedReaderTests;
+			productName = BBCFeedReaderTests;
+			productReference = 59B284A91DD7456600E3BD99 /* BBCFeedReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59B284B31DD7456600E3BD99 /* BBCFeedReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59B284C31DD7456600E3BD99 /* Build configuration list for PBXNativeTarget "BBCFeedReaderUITests" */;
+			buildPhases = (
+				59B284B01DD7456600E3BD99 /* Sources */,
+				59B284B11DD7456600E3BD99 /* Frameworks */,
+				59B284B21DD7456600E3BD99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59B284B61DD7456600E3BD99 /* PBXTargetDependency */,
+			);
+			name = BBCFeedReaderUITests;
+			productName = BBCFeedReaderUITests;
+			productReference = 59B284B41DD7456600E3BD99 /* BBCFeedReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59B2848D1DD7456600E3BD99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Abrahanfer;
+				TargetAttributes = {
+					59B284941DD7456600E3BD99 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JKBQ4AF5S2;
+						ProvisioningStyle = Automatic;
+					};
+					59B284A81DD7456600E3BD99 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59B284941DD7456600E3BD99;
+					};
+					59B284B31DD7456600E3BD99 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59B284941DD7456600E3BD99;
+					};
+				};
+			};
+			buildConfigurationList = 59B284901DD7456600E3BD99 /* Build configuration list for PBXProject "BBCFeedReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59B2848C1DD7456600E3BD99;
+			productRefGroup = 59B284961DD7456600E3BD99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59B284941DD7456600E3BD99 /* BBCFeedReader */,
+				59B284A81DD7456600E3BD99 /* BBCFeedReaderTests */,
+				59B284B31DD7456600E3BD99 /* BBCFeedReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59B284931DD7456600E3BD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B284A31DD7456600E3BD99 /* LaunchScreen.storyboard in Resources */,
+				59B284A01DD7456600E3BD99 /* Assets.xcassets in Resources */,
+				59B2849E1DD7456600E3BD99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B284A71DD7456600E3BD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B284B21DD7456600E3BD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59B284911DD7456600E3BD99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B2849B1DD7456600E3BD99 /* BBCFeedReaderMasterViewController.swift in Sources */,
+				59B284991DD7456600E3BD99 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B284A51DD7456600E3BD99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B284AE1DD7456600E3BD99 /* BBCFeedReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B284B01DD7456600E3BD99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B284B91DD7456600E3BD99 /* BBCFeedReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59B284AB1DD7456600E3BD99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59B284941DD7456600E3BD99 /* BBCFeedReader */;
+			targetProxy = 59B284AA1DD7456600E3BD99 /* PBXContainerItemProxy */;
+		};
+		59B284B61DD7456600E3BD99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59B284941DD7456600E3BD99 /* BBCFeedReader */;
+			targetProxy = 59B284B51DD7456600E3BD99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59B2849C1DD7456600E3BD99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59B2849D1DD7456600E3BD99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59B284A11DD7456600E3BD99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59B284A21DD7456600E3BD99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59B284BB1DD7456600E3BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59B284BC1DD7456600E3BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59B284BE1DD7456600E3BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JKBQ4AF5S2;
+				INFOPLIST_FILE = BBCFeedReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abrahanfer.me.BBCFeedReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		59B284BF1DD7456600E3BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JKBQ4AF5S2;
+				INFOPLIST_FILE = BBCFeedReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abrahanfer.me.BBCFeedReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		59B284C11DD7456600E3BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BBCFeedReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abrahanfer.BBCFeedReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBCFeedReader.app/BBCFeedReader";
+			};
+			name = Debug;
+		};
+		59B284C21DD7456600E3BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BBCFeedReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abrahanfer.BBCFeedReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBCFeedReader.app/BBCFeedReader";
+			};
+			name = Release;
+		};
+		59B284C41DD7456600E3BD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BBCFeedReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abrahanfer.BBCFeedReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BBCFeedReader;
+			};
+			name = Debug;
+		};
+		59B284C51DD7456600E3BD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BBCFeedReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abrahanfer.BBCFeedReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BBCFeedReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59B284901DD7456600E3BD99 /* Build configuration list for PBXProject "BBCFeedReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B284BB1DD7456600E3BD99 /* Debug */,
+				59B284BC1DD7456600E3BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59B284BD1DD7456600E3BD99 /* Build configuration list for PBXNativeTarget "BBCFeedReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B284BE1DD7456600E3BD99 /* Debug */,
+				59B284BF1DD7456600E3BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59B284C01DD7456600E3BD99 /* Build configuration list for PBXNativeTarget "BBCFeedReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B284C11DD7456600E3BD99 /* Debug */,
+				59B284C21DD7456600E3BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59B284C31DD7456600E3BD99 /* Build configuration list for PBXNativeTarget "BBCFeedReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B284C41DD7456600E3BD99 /* Debug */,
+				59B284C51DD7456600E3BD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59B2848D1DD7456600E3BD99 /* Project object */;
+}
